@@ -24,7 +24,7 @@ public class DuplicateCharacter {
 		for (Character output : map.keySet()) {
 			if(map.get(output)>1 ) {
 			System.out.println(output + " : " + map.get(output));
-			}
+			}  
 		}
 
 	}

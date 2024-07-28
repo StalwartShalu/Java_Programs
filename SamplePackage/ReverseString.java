@@ -13,13 +13,13 @@ public class ReverseString {
 			System.out.print(str.charAt(i));
 		}
 
-		// Using String Buffer 
-		StringBuffer StrBuffer = new StringBuffer(str);
-		System.out.println(StrBuffer.reverse());
-
-		// Using String Builder
-		StringBuilder StrBuilder = new StringBuilder(str);
-		System.out.println(StrBuilder.reverse());
+		/*
+		 * // Using String Buffer StringBuffer StrBuffer = new StringBuffer(str);
+		 * System.out.println(StrBuffer.reverse());
+		 * 
+		 * // Using String Builder StringBuilder StrBuilder = new StringBuilder(str);
+		 * System.out.println(StrBuilder.reverse());
+		 */
 
 	}
 }
